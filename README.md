@@ -1,8 +1,9 @@
-# CTF--steganograhpy-challenge
 # 🕵️ Hidden in Plain Sight
 
 > **Category:** Steganography
 > **Difficulty:** Easy
+> **Points:** 100
+> **Author:** Thrivedha
 
 ---
 
@@ -20,9 +21,9 @@ Are you sure about that? 👀
 
 ## 📁 Challenge File
 
-Download the file below and investigate:
+Download and investigate:
 
-- `challenge.jpg`
+- `challenge-files/challenge.png`
 
 ---
 
@@ -36,28 +37,24 @@ Find the hidden flag inside the image.
 
 ## 💡 Hints
 
-> *(Use hints only if stuck!)*
-
 | Hint | Cost | Content |
 |------|------|---------|
 | Hint 1 | Free | Things aren't always what they seem |
-| Hint 2 | 25 pts | Look into steganography tools |
-| Hint 3 | 50 pts | Try the tool called `steghide` |
+| Hint 2 | 25 pts | Look into steganography techniques |
+| Hint 3 | 50 pts | Try extracting LSB from the image |
 
 ---
 
 ## 🛠️ Tools That May Help
 
-- `steghide`
-- `stegseek`
+- `zsteg`
+- `stegsolve`
+- Python PIL library
 - `binwalk`
-- `exiftool`
 
 ---
 
-## 📬 Submission
-
-Submit your flag in the format:
+## 📬 Flag Format
 ```
 FLAG{...}
 ```
