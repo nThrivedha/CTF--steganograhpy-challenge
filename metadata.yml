@@ -1,0 +1,23 @@
+title: "Hidden in Plain Sight"
+category: Steganography
+difficulty: Easy
+points: 100
+author: "Your Name"
+flag: "FLAG{h1dd3n_1n_pl41n_s1ght}"
+
+files:
+  - challenge-files/challenge.jpg
+
+hints:
+  - cost: 0
+    content: "Things aren't always what they seem"
+  - cost: 25
+    content: "Look into steganography tools"
+  - cost: 50
+    content: "Try the tool called steghide"
+
+tags:
+  - steganography
+  - easy
+  - image
+  - lsb
